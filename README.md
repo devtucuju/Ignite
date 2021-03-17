@@ -24,12 +24,12 @@ Aqui estão as definições dos recursos de cada plataforma e como eles se relac
 | :---: | :---: | :---:|
 | Curso | <-> | Milestones |
 | Tópicos | <-> | Issues |
-| Aulas | <-> | Branchs
+| Grupo de Aulas | <-> | Branchs
 | Nível | <-> | Labels
 
 - Cada `Curso` é um `Milestone`
 - Cada `Tópico do curso` é um `Issue`
-- Cada `Aula` é um `Branch`
+- Cada `Grupo de aula` é um `Branch`
 - Cada `Nível` é um `Label`
 
 ## Como usar este template
@@ -55,12 +55,12 @@ Aqui estão as definições dos recursos de cada plataforma e como eles se relac
 1. Clone este repo:
    `git clone https://github.com/<USERNAME>/template-github-professional.git`
 
-1. Para cada aula, crie um `branch` com o nome da aula e faça seus `commits` e `pushs`
-1. Após concluir um curso, faça um `pull request (PR)` e relacione com o `issue` do curso
+1. Para cada grupo de aula, crie um `branch` com o nome do grupo de aula e faça seus `commits` e `pushs`
+1. Após concluir um curso, faça um `pull request (PR)` e relacione com o `issue` do topico de curso
 
 ## Conclusão
 
-O status do seu curso (milestone) será atualizado a cada vez que você concluir um tópico.
+O status do seu curso (milestone) será atualizado a cada vez que você concluir um tópico de curso.
 E sua missão é completar todos os tópicos para completar os seus estudos.
 
 
