@@ -12,10 +12,33 @@
 - [Desenvolvimento de API](#desenvolvimento-de-api)
 
 ## Fundamentos de Node
+Plataforma opensource que permite a execução javascript do lado do servidor.
 
 ## Funcionamento do Node
+Composto da V8(google) interpretador javascript + libuv(multiplataforma com foco)
+em I/O assíncrono + módulos nativos.
+
+Arquitetura Event Loop
+-Call Stack
+-Single Thread
+-Non Block I/O
+-Módulos nativos(http, filesystem, buffer,dns)
+
+A lista de funções na call stack, o event loop ouve essas funções, uma por requisição
+por vez, encaminha para uma thread disponível e assim sucessivamente. Possuí quatro threads
+disponives, sendo porssivel adaptar para mais theads. Por ser uma fila, o que entra por ultimo é o que sai primeiro.
+
+O Node possui gerenciadores de pacotes (npm e yarn) para gerenciar as bibliotecas a
+serem utilizadas nos projetos e também podemos criar nossas proprias bibliotecas
+para disponibilizar para a comunidade.
+
+Existem frameworks para se trabalhar com o Node a exemplo:
+express, adonis, nest, etc ...
 
 ## Problemas que o Node resolve
+Criado por Ryan Dahl ao observar a barra de progresso do Flicker.
+As tecnologias não davam bom suporte para o processo de I/O. Assim era necessário 
+uma linguagem para resolver o problema das requisições da barra de progresso do Flicker.
 
 ## Conceitos de API
 
