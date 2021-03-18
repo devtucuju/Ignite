@@ -41,8 +41,12 @@ As tecnologias não davam bom suporte para o processo de I/O. Assim era necessá
 uma linguagem para resolver o problema das requisições da barra de progresso do Flicker.
 
 ## Conceitos de API
+Interface de programação de aplicativos, conjunto de especificações de possíveis
+interações entre aplicações, determina como uma aplicação irá se comunicar com
+a outra.
 
 ## REST
+Representation State Transfer.Modelo de arquitetura. Possui regras para que seja definido a arquitetura REST: Client-Server, Stateless, Cache, Inteface Uniforme,Camadas,Código sob Demanda 
 
 ## Métodos HTTP
 
