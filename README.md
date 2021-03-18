@@ -9,7 +9,7 @@
 - [Métodos HTTP](#métodos-http)
 - [Status Code](#status-code)
 - [Tipos de Parâmetros](#tipos-de-parâmetros)
-- [Desenvolvimento de API](#desenvolvimento-de-api)
+- [Boa práticas de API](#boa-práticas-de-api)
 
 ## Fundamentos de Node
 Plataforma opensource que permite a execução javascript do lado do servidor.
@@ -50,8 +50,39 @@ Representation State Transfer.Modelo de arquitetura. Possui regras para que seja
 
 ## Métodos HTTP
 
+GET - leitura
+POST - criação
+PUT - atualização
+PATCH - atualização parcial
+DELETE - deletar
+
 ## Status Code
-
+1XX - Informativo - a solicitação foi aceita ou o processo continua em andamento 
+2XX - Confirmação
+ - 200 - requisição bem sucedida
+ - 201 - Created - usado em POST apos uma criação
+3XX - Redirecionamento
+ - 301 - Moved Permanetly
+ - 302 - Moved
+4XX - Erro do Cliente
+ - 400 - Bad Request
+ - 401 - Unauthorized
+ - 403 - Forbidden
+ - 404 - Not Found
+ - 422 - Unprocessable Entity
+5XX - Erro Servidor - servidor falhou ao concluir a solicitação
+ - 500 - Internal Server Error
+ - 502 - Bad Gateway
+ -   
 ## Tipos de Parâmetros
+- Header Params - token, controle de sessão ...
+- Query Params - inseridos ao final da url: definidos por chave valor com delimitador  de separação &.
+- Route Params - inseridos no meio da rota: buscas, alteração.
+- Body Params - inseridos no corpo da requisição.
 
-## Desenvolvimento de API
+
+## Boa práticas de API
+- Utilizar corretamento os metodos HTTP
+- Utilização correta do status no retorno das repostas
+- Padrão de nomenclatura
+- 
